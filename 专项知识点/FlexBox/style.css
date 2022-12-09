@@ -1,0 +1,128 @@
+.flexContainer{
+    width: 100%;
+    height: 1000px;
+    background-color: #FED2D2;
+}
+.bigBox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: orange;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+}
+.minBox{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: red;
+}
+.minBox2{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+.box1{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.box2{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.box4{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.box5{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.box6{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.xBox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    align-items: stretch;/*子元素没给高度，则拉满*/
+    /*align-items: flex-start;*/
+    /*align-items: center;*/
+    /*align-items: flex-end;*/
+}
+.X1{
+    width: 50px;
+    /*height: 50px;*/
+    background-color: aquamarine;
+    margin: 10px;
+}
+.yBox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    flex-flow: row wrap;
+    align-content: stretch;/*不给高度可以拉满*/
+    /*align-content: flex-start;*/
+    /*align-content: center;*/
+    /*align-content: flex-end;*/
+    /*align-content: space-between;*/
+    /*align-content: space-around;*/
+    /*align-content: space-evenly;*/
+}
+.X2{
+    width: 60px;
+    /*height: 50px;*/
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+.flexItem{
+    width: 100%;
+    height: 1000px;
+    background-color: #FED2D2;
+    margin-top: 50px;
+}
+
